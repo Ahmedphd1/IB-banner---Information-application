@@ -1,0 +1,12 @@
+﻿<apb:AppBarWindow2 x:Class="IBbanner.bottom"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IBbanner"
+        xmlns:apb="clr-namespace:WpfAppBar;assembly=bottomwpf"
+        mc:Ignorable="d" DataContext="{Binding RelativeSource={RelativeSource Self}}"
+        DockedWidthOrHeight="5" Topmost="True" AllowsTransparency="True" WindowStyle="None" Background="Purple">
+    <Grid>
+    </Grid>
+</apb:AppBarWindow2>
